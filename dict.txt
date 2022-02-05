@@ -1,0 +1,1 @@
+{'play': 'user-defined', 'generate':'user-defined', 'range':'built-in', 'print':'built-in', 'sleep':'user-defined', '__import__':'built-in', 'result': None}

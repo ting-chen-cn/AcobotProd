@@ -1,0 +1,45 @@
+[
+  {
+    "functionName":"generate",
+    "type":"user-defined",
+    "descriptions":"Creating a numpy array of a sine wave according to given variables.",
+    "arguments":"['frequency' : Int,'amplitude' : Int,'duration' : Int]",
+    "returns": "['signal' : Numpy array]",
+    "example":"generate(1000,1,1)"
+  },
+  {
+    "functionName":"play",
+    "type":"user-defined",
+    "descriptions":"Playing the given signal with sound device.",
+    "arguments":"['frequency' : Int,'amplitude' : Int,'duration' : Int]",
+    "returns": "None",
+    "example":"play(1000,1,1)"
+    },
+    {
+    "functionName":"range",
+    "type":"built-in",
+    "descriptions":"The range() function returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default), and stops before a specified number.",
+    "arguments":"['start' : Int,'stop' : Int,'step' : Int]",
+    "returns": "a sequence of numbers",
+    "example":"range(start, stop, step)"
+    },
+    {
+    "functionName":"print",
+    "type":"built-in",
+    "descriptions":"The print() function prints the specified message to the screen, or other standard output device.",
+    "arguments":"['object(s)' : any object,'sep' : Str,'end' : Str]",
+    "returns": "a sequence of numbers",
+    "example":"print(object(s), sep=separator, end=end, file=file)"
+    },
+    {
+    "functionName":"result",
+    "type":"local variable",
+    "descriptions":"The result of the command, if no return it will be None.",
+    "value": "None"
+    },
+    {
+    "functionName":"__import__",
+    "type":"built-in",
+    "descriptions":"Replacement of import statement."
+    }
+]
